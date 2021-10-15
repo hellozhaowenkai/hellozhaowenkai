@@ -1,0 +1,38 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * source-code-pro:
+ *   - http://typekit.com/eulas/00000000000000007735dc06
+ *   - http://typekit.com/eulas/00000000000000007735dc01
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+/*{"last_published":"2021-10-14 06:46:04 UTC"}*/
+
+@font-face {
+  font-family: "source-code-pro";
+  src: url(../webfonts/source-code-pro-regular.otf.woff2) format("woff2"),
+    url(../webfonts/source-code-pro-regular.otf.woff) format("woff"),
+    url(../webfonts/source-code-pro-regular.otf) format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "source-code-pro";
+  src: url(../webfonts/source-code-pro-italic.otf.woff2) format("woff2"),
+    url(../webfonts/source-code-pro-italic.otf.woff) format("woff"),
+    url(../webfonts/source-code-pro-italic.otf) format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.tk-source-code-pro {
+  font-family: "source-code-pro", monospace;
+}
