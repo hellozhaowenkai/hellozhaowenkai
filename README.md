@@ -6,7 +6,7 @@ I love **Thinking** and I do believe **Idea** can make a better world.<br />
 I love **Coding** and I do believe **Software** changes the human race.<br />
 I love **Contributing** and I do believe **Open Source** is where the great things happen.
 
-> Learn more about me in my [personal website](lailai.link/me/).
+> Learn more about me in my [personal website](https://lailai.link/me/).
 
 ---
 
