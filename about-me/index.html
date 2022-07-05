@@ -12,9 +12,10 @@
       content="Learn more about me in this special repository."
     />
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline' https:; object-src 'none'; base-uri 'none';"
     />
     <link rel="icon" href="assets/images/favicon.png" type="image/x-icon" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -39,7 +40,7 @@
         <span class="image avatar">
           <img src="assets/images/avatar.jpg" alt="avatar.jpg" />
         </span>
-        <h1 id="logo"><a href="#">KevInZhao</a></h1>
+        <h1 id="logo"><a href="#hi">KevInZhao</a></h1>
         <p>Boredom, It Is a Disease.</p>
       </header>
       <nav id="nav">
@@ -65,6 +66,7 @@
             <a
               href="https://twitter.com/hellozhaowenkai/"
               target="_blank"
+              rel="noopener"
               class="icon brands fa-twitter"
             >
               <span class="label">Twitter</span>
@@ -74,6 +76,7 @@
             <a
               href="https://linkedin.com/in/hellozhaowenkai/"
               target="_blank"
+              rel="noopener"
               class="icon brands fa-linkedin"
             >
               <span class="label">Linkedin</span>
@@ -83,6 +86,7 @@
             <a
               href="https://github.com/hellozhaowenkai/"
               target="_blank"
+              rel="noopener"
               class="icon brands fa-github"
             >
               <span class="label">GitHub</span>
@@ -115,7 +119,7 @@
               <h2>Hi 🤩</h2>
               <p>
                 My name is Kevin Zhao,<br />
-                but I usually go by the name of `<a href="#">KevInZhao</a>` in
+                but I usually go by the name of `<a href="#hi">KevInZhao</a>` in
                 social networking.
               </p>
             </header>
@@ -143,9 +147,9 @@
               <li class="icon solid fa-code">Code & Architecture</li>
               <li class="icon solid fa-palette">Graphics & Design</li>
               <li class="icon solid fa-book">Read books and documents</li>
-              <li class="icon solid fa-coffee">Drink coffee and soda</li>
+              <li class="icon solid fa-coffee">Drink coffee and cola</li>
               <li class="icon solid fa-basketball-ball">Play basketball</li>
-              <li class="icon solid fa-gamepad">Play game</li>
+              <li class="icon solid fa-gamepad">Play games</li>
             </ul>
           </div>
         </section>
@@ -161,7 +165,12 @@
             </p>
             <div class="features">
               <article>
-                <a href="https://lailai.link/" target="_blank" class="image">
+                <a
+                  href="https://lailai.link/"
+                  target="_blank"
+                  rel="noopener"
+                  class="image"
+                >
                   <img
                     src="assets/images/lailai-link.svg"
                     alt="lailai-link.svg"
@@ -176,6 +185,7 @@
                 <a
                   href="https://github.com/hellozhaowenkai/dotpub/"
                   target="_blank"
+                  rel="noopener"
                   class="image"
                 >
                   <img src="assets/images/dotpub.svg" alt="dotpub.svg" />
@@ -189,6 +199,7 @@
                 <a
                   href="https://github.com/hellozhaowenkai/floor-planner/"
                   target="_blank"
+                  rel="noopener"
                   class="image"
                 >
                   <img
@@ -205,6 +216,7 @@
                 <a
                   href="https://github.com/hellozhaowenkai/mt-candy/"
                   target="_blank"
+                  rel="noopener"
                   class="image"
                 >
                   <img src="assets/images/mt-candy.svg" alt="mt-candy.svg" />
@@ -232,6 +244,7 @@
                 <a
                   href="https://github.com/sponsors/hellozhaowenkai/"
                   target="_blank"
+                  rel="noopener"
                   class="image"
                 >
                   <img
@@ -244,6 +257,7 @@
                 <a
                   href="https://paypal.me/hellozhaowenkai/"
                   target="_blank"
+                  rel="noopener"
                   class="image"
                 >
                   <img src="assets/images/paypal.png" alt="paypal.png" />
@@ -285,7 +299,7 @@
         <div class="container">
           <!-- prettier-ignore -->
           <ul class="copyright">
-            <li>Copyright © 2020-PRESENT KevInZhao</li><li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+            <li>Copyright © 2020-PRESENT KevInZhao</li><li>Design: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></li>
           </ul>
         </div>
       </section>
